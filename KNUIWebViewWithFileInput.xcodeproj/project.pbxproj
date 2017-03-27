@@ -13,6 +13,13 @@
 		E17AD3351E88B07200B3DE22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17AD3331E88B07200B3DE22 /* Main.storyboard */; };
 		E17AD3371E88B07200B3DE22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17AD3361E88B07200B3DE22 /* Assets.xcassets */; };
 		E17AD33A1E88B07200B3DE22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17AD3381E88B07200B3DE22 /* LaunchScreen.storyboard */; };
+		E17AD34C1E88B0C800B3DE22 /* CMPayConst.m in Sources */ = {isa = PBXBuildFile; fileRef = E17AD3421E88B0C800B3DE22 /* CMPayConst.m */; };
+		E17AD34D1E88B0C800B3DE22 /* HCPEnvrionmentalVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = E17AD3441E88B0C800B3DE22 /* HCPEnvrionmentalVariables.m */; };
+		E17AD34E1E88B0C800B3DE22 /* IPLoadingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E17AD3471E88B0C800B3DE22 /* IPLoadingTool.m */; };
+		E17AD34F1E88B0C800B3DE22 /* IPOpenShopMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E17AD3491E88B0C800B3DE22 /* IPOpenShopMainViewController.m */; };
+		E17AD3501E88B0C800B3DE22 /* UIWebView+TS_JavaScriptContext.m in Sources */ = {isa = PBXBuildFile; fileRef = E17AD34B1E88B0C800B3DE22 /* UIWebView+TS_JavaScriptContext.m */; };
+		E17AD3561E88C1CD00B3DE22 /* KNBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E17AD3551E88C1CD00B3DE22 /* KNBaseWebViewController.m */; };
+		E17AD3591E88C28C00B3DE22 /* KNTestWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E17AD3581E88C28C00B3DE22 /* KNTestWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,21 @@
 		E17AD3361E88B07200B3DE22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E17AD3391E88B07200B3DE22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E17AD33B1E88B07200B3DE22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E17AD3411E88B0C800B3DE22 /* CMPayConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPayConst.h; sourceTree = "<group>"; };
+		E17AD3421E88B0C800B3DE22 /* CMPayConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPayConst.m; sourceTree = "<group>"; };
+		E17AD3431E88B0C800B3DE22 /* HCPEnvrionmentalVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCPEnvrionmentalVariables.h; sourceTree = "<group>"; };
+		E17AD3441E88B0C800B3DE22 /* HCPEnvrionmentalVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCPEnvrionmentalVariables.m; sourceTree = "<group>"; };
+		E17AD3451E88B0C800B3DE22 /* HSSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSSingleton.h; sourceTree = "<group>"; };
+		E17AD3461E88B0C800B3DE22 /* IPLoadingTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPLoadingTool.h; sourceTree = "<group>"; };
+		E17AD3471E88B0C800B3DE22 /* IPLoadingTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPLoadingTool.m; sourceTree = "<group>"; };
+		E17AD3481E88B0C800B3DE22 /* IPOpenShopMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPOpenShopMainViewController.h; sourceTree = "<group>"; };
+		E17AD3491E88B0C800B3DE22 /* IPOpenShopMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPOpenShopMainViewController.m; sourceTree = "<group>"; };
+		E17AD34A1E88B0C800B3DE22 /* UIWebView+TS_JavaScriptContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+TS_JavaScriptContext.h"; sourceTree = "<group>"; };
+		E17AD34B1E88B0C800B3DE22 /* UIWebView+TS_JavaScriptContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+TS_JavaScriptContext.m"; sourceTree = "<group>"; };
+		E17AD3541E88C1CD00B3DE22 /* KNBaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBaseWebViewController.h; sourceTree = "<group>"; };
+		E17AD3551E88C1CD00B3DE22 /* KNBaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBaseWebViewController.m; sourceTree = "<group>"; };
+		E17AD3571E88C28C00B3DE22 /* KNTestWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNTestWebViewController.h; sourceTree = "<group>"; };
+		E17AD3581E88C28C00B3DE22 /* KNTestWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNTestWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +80,8 @@
 		E17AD3291E88B07200B3DE22 /* KNUIWebViewWithFileInput */ = {
 			isa = PBXGroup;
 			children = (
-				E17AD32D1E88B07200B3DE22 /* AppDelegate.h */,
-				E17AD32E1E88B07200B3DE22 /* AppDelegate.m */,
-				E17AD3301E88B07200B3DE22 /* ViewController.h */,
-				E17AD3311E88B07200B3DE22 /* ViewController.m */,
-				E17AD3331E88B07200B3DE22 /* Main.storyboard */,
-				E17AD3361E88B07200B3DE22 /* Assets.xcassets */,
-				E17AD3381E88B07200B3DE22 /* LaunchScreen.storyboard */,
-				E17AD33B1E88B07200B3DE22 /* Info.plist */,
+				E17AD3521E88C05F00B3DE22 /* VC */,
+				E17AD3511E88B0E600B3DE22 /* WEBView */,
 				E17AD32A1E88B07200B3DE22 /* Supporting Files */,
 			);
 			path = KNUIWebViewWithFileInput;
@@ -74,9 +90,54 @@
 		E17AD32A1E88B07200B3DE22 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E17AD32D1E88B07200B3DE22 /* AppDelegate.h */,
+				E17AD32E1E88B07200B3DE22 /* AppDelegate.m */,
+				E17AD3301E88B07200B3DE22 /* ViewController.h */,
+				E17AD3311E88B07200B3DE22 /* ViewController.m */,
+				E17AD3331E88B07200B3DE22 /* Main.storyboard */,
+				E17AD3361E88B07200B3DE22 /* Assets.xcassets */,
+				E17AD3381E88B07200B3DE22 /* LaunchScreen.storyboard */,
+				E17AD33B1E88B07200B3DE22 /* Info.plist */,
 				E17AD32B1E88B07200B3DE22 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E17AD3511E88B0E600B3DE22 /* WEBView */ = {
+			isa = PBXGroup;
+			children = (
+				E17AD3531E88C07300B3DE22 /* BaseWebViewVC */,
+				E17AD3411E88B0C800B3DE22 /* CMPayConst.h */,
+				E17AD3421E88B0C800B3DE22 /* CMPayConst.m */,
+				E17AD3431E88B0C800B3DE22 /* HCPEnvrionmentalVariables.h */,
+				E17AD3441E88B0C800B3DE22 /* HCPEnvrionmentalVariables.m */,
+				E17AD3451E88B0C800B3DE22 /* HSSingleton.h */,
+				E17AD3461E88B0C800B3DE22 /* IPLoadingTool.h */,
+				E17AD3471E88B0C800B3DE22 /* IPLoadingTool.m */,
+				E17AD34A1E88B0C800B3DE22 /* UIWebView+TS_JavaScriptContext.h */,
+				E17AD34B1E88B0C800B3DE22 /* UIWebView+TS_JavaScriptContext.m */,
+			);
+			name = WEBView;
+			sourceTree = "<group>";
+		};
+		E17AD3521E88C05F00B3DE22 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				E17AD3481E88B0C800B3DE22 /* IPOpenShopMainViewController.h */,
+				E17AD3491E88B0C800B3DE22 /* IPOpenShopMainViewController.m */,
+				E17AD3571E88C28C00B3DE22 /* KNTestWebViewController.h */,
+				E17AD3581E88C28C00B3DE22 /* KNTestWebViewController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		E17AD3531E88C07300B3DE22 /* BaseWebViewVC */ = {
+			isa = PBXGroup;
+			children = (
+				E17AD3541E88C1CD00B3DE22 /* KNBaseWebViewController.h */,
+				E17AD3551E88C1CD00B3DE22 /* KNBaseWebViewController.m */,
+			);
+			name = BaseWebViewVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,8 +212,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E17AD34C1E88B0C800B3DE22 /* CMPayConst.m in Sources */,
+				E17AD34D1E88B0C800B3DE22 /* HCPEnvrionmentalVariables.m in Sources */,
+				E17AD34F1E88B0C800B3DE22 /* IPOpenShopMainViewController.m in Sources */,
+				E17AD3561E88C1CD00B3DE22 /* KNBaseWebViewController.m in Sources */,
+				E17AD3591E88C28C00B3DE22 /* KNTestWebViewController.m in Sources */,
 				E17AD3321E88B07200B3DE22 /* ViewController.m in Sources */,
+				E17AD34E1E88B0C800B3DE22 /* IPLoadingTool.m in Sources */,
 				E17AD32F1E88B07200B3DE22 /* AppDelegate.m in Sources */,
+				E17AD3501E88B0C800B3DE22 /* UIWebView+TS_JavaScriptContext.m in Sources */,
 				E17AD32C1E88B07200B3DE22 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

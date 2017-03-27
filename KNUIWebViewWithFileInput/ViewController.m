@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "IPOpenShopMainViewController.h"
+#import "KNTestWebViewController.h"
+
 
 @interface ViewController ()
 
@@ -16,14 +19,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+//    IPOpenShopMainViewController *openShopMainViewController =[[IPOpenShopMainViewController alloc]init];
+    
+    KNTestWebViewController *vc = [[KNTestWebViewController alloc]init];
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [self presentViewController:vc animated:YES completion:^{
+        
+    }];
 }
+
 
 
 @end
