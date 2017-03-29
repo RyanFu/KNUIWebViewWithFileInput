@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E11ECFA31E8B5E79002DB7DF /* CMPayPasswordJudgment.m in Sources */ = {isa = PBXBuildFile; fileRef = E11ECFA21E8B5E79002DB7DF /* CMPayPasswordJudgment.m */; };
 		E17AD32C1E88B07200B3DE22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E17AD32B1E88B07200B3DE22 /* main.m */; };
 		E17AD32F1E88B07200B3DE22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E17AD32E1E88B07200B3DE22 /* AppDelegate.m */; };
 		E17AD3321E88B07200B3DE22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E17AD3311E88B07200B3DE22 /* ViewController.m */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E11ECFA11E8B5E79002DB7DF /* CMPayPasswordJudgment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPayPasswordJudgment.h; sourceTree = "<group>"; };
+		E11ECFA21E8B5E79002DB7DF /* CMPayPasswordJudgment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPayPasswordJudgment.m; sourceTree = "<group>"; };
 		E17AD3271E88B07200B3DE22 /* KNUIWebViewWithFileInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNUIWebViewWithFileInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17AD32B1E88B07200B3DE22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E17AD32D1E88B07200B3DE22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +64,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E11ECFA01E8B5E61002DB7DF /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E11ECFA11E8B5E79002DB7DF /* CMPayPasswordJudgment.h */,
+				E11ECFA21E8B5E79002DB7DF /* CMPayPasswordJudgment.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
 		E17AD31E1E88B07200B3DE22 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +92,7 @@
 		E17AD3291E88B07200B3DE22 /* KNUIWebViewWithFileInput */ = {
 			isa = PBXGroup;
 			children = (
+				E11ECFA01E8B5E61002DB7DF /* Tool */,
 				E17AD3521E88C05F00B3DE22 /* VC */,
 				E17AD3511E88B0E600B3DE22 /* WEBView */,
 				E17AD32A1E88B07200B3DE22 /* Supporting Files */,
@@ -217,6 +230,7 @@
 				E17AD34F1E88B0C800B3DE22 /* IPOpenShopMainViewController.m in Sources */,
 				E17AD3561E88C1CD00B3DE22 /* KNBaseWebViewController.m in Sources */,
 				E17AD3591E88C28C00B3DE22 /* KNTestWebViewController.m in Sources */,
+				E11ECFA31E8B5E79002DB7DF /* CMPayPasswordJudgment.m in Sources */,
 				E17AD3321E88B07200B3DE22 /* ViewController.m in Sources */,
 				E17AD34E1E88B0C800B3DE22 /* IPLoadingTool.m in Sources */,
 				E17AD32F1E88B07200B3DE22 /* AppDelegate.m in Sources */,
