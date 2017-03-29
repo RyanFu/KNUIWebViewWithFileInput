@@ -20,6 +20,8 @@
     // Override point for customization after application launch.
     [[HCPEnvrionmentalVariables shareEnvrionmentalVariables] setEnvrionmentalVariables:ENVRIONMENTAL_VARIABLES_UAT];
     
+   
+    
     
     return YES;
 }

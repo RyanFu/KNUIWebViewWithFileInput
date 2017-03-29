@@ -4,10 +4,10 @@
 //code_home.xhtml
 //  Created by devzkn on 10/01/2017.
 //  Copyright © 2017 Hisun. All rights reserved.
-//
+//uat.cmpay.com
 #import <Foundation/Foundation.h>
 /**各环境地址
- sit,uat   uat.cmpay.com
+ sit,uat
  预投产，生产 www.cmpay.com
  
  返回app登录页的js接口  backCoudIPSAPP */

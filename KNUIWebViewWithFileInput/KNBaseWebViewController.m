@@ -16,7 +16,7 @@
 
 @interface KNBaseWebViewController ()
 
-
+@property (nonatomic,strong) UIView  *statusBarView;
 @property (nonatomic,weak) UIWebView  *webView;
 @property (nonatomic,strong) UIAlertView *meaasgeAlertView;
 
@@ -28,10 +28,83 @@
 //@property (nonatomic,assign) BOOL exitKNBaseWebViewControllerflagged;
 @end
 
+
+
+
+
 @implementation KNBaseWebViewController
+
+static  CGFloat const statusBarViewHeight = 20;
+
+
+- (void)setY:(CGFloat)y  view :(UIView*)view{
+    CGRect frame = view.frame;
+    frame.origin.y = y;
+    view.frame = frame;
+}
+
+- (void)viewWillLayoutSubviews{
+    [super viewWillLayoutSubviews];
+    [self setY: CGRectGetMaxY(self.statusBarView.frame) view:self.webView];
+}
+//
+//-(UIStatusBarStyle)preferredStatusBarStyle{
+//    return UIStatusBarStyleLightContent;
+//}
+
+- (UIView *)statusBarView{
+    if (nil == _statusBarView) {
+        
+//        如果View controller-based status bar appearance为YES。
+//        
+//        则[UIApplication sharedApplication].statusBarStyle 无效。
+        //设置状态栏为白色
+        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];//此方法展示的效果更明显
+        
+        /** 
+         
+         三、设置状态栏字体颜色
+         
+         
+         方式一：
+         
+         （在info.plist中，将View controller-based status bar appearance设为YES，或者没有设置。View controller-based status bar appearance的默认值就是YES。）
+         
+         1、在info.plist中，将View controller-based status bar appearance设为NO.
+         2、在app delegate中：[UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+         方式二：
+         1.VC中重写     -- webView 控制器就可以用此种方法
+         -(UIStatusBarStyle)preferredStatusBarStyle
+         2、在viewDidload中调用：[self setNeedsStatusBarAppearanceUpdate];
+         
+         但是：当vc在nav中时，上面方法没用，vc中的preferredStatusBarStyle方法根本不用被调用。
+         原因是，[self setNeedsStatusBarAppearanceUpdate]发出后，只会调用navigation controller中的preferredStatusBarStyle方法，vc中的preferredStatusBarStyley方法跟本不会被调用。
+         
+         解决方法：
+         self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
+         或者
+         定义一个nav bar的子类，在这个子类中重写preferredStatusBarStyle方法：
+         
+         
+         */
+        
+        
+        
+        _statusBarView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, statusBarViewHeight)];
+//        _statusBarView.hidden = YES;
+        [self.view addSubview:_statusBarView];
+    }
+    return _statusBarView;
+}
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+//    [self setNeedsStatusBarAppearanceUpdate];
+//    self.statusBarView.hidden = NO;
+
     
     self.webView.delegate = self;
     self.webView.scrollView.bounces = NO;//禁止UIWebView滚动和回弹方法
